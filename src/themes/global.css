@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme (RGB for opacity support) */
+    --color-background: 255 255 255; /* white */
+    --color-foreground: 16 24 40; /* grayLight[900] */
+    --color-border: 226 232 240; /* slate-200-ish */
+    --color-muted: 152 162 179; /* grayLight[400] */
+    --color-primary: 66 97 252; /* darkBlue[500] */
+    --color-success: 23 178 106; /* success[500] */
+    --color-warning: 247 144 9; /* warning[500] */
+    --color-error: 240 68 56; /* error[500] */
+  }
+
+  .dark {
+    /* Dark theme */
+    --color-background: 12 17 29; /* grayDark[950] */
+    --color-foreground: 243 244 246; /* near white */
+    --color-border: 55 65 81; /* gray-700-ish */
+    --color-muted: 148 150 156; /* grayDark[400] */
+    --color-primary: 103 0 219; /* magnolia[600] */
+    --color-success: 7 148 85; /* success[600] */
+    --color-warning: 220 104 3; /* warning[600] */
+    --color-error: 217 45 32; /* error[600] */
+  }
+}
