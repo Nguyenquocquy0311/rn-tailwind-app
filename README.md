@@ -1,5 +1,7 @@
 # Welcome to your Expo app 👋
 
+This repository is a reusable React Native codebase built on Expo and NativeWind (Tailwind CSS for RN). It is designed as a starter/template to be reused across multiple projects, providing a consistent setup for theming (light/dark via CSS variables), typography, aliases, and folder conventions.
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
@@ -7,13 +9,15 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
-   npm install
+   nvm use
+   yarn
+   yarn prebuild:clean
    ```
 
 2. Start the app
 
    ```bash
-   npx expo start
+   yarn start
    ```
 
 In the output, you'll find options to open the app in a
